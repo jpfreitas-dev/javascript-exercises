@@ -13,8 +13,7 @@
 - **09. Dynamic Typing**: Create a variable `data`. Assign a Number, then a String, then a Boolean. Use `typeof` after each assignment to demonstrate JavaScript's dynamic typing system.
 - **10. Template Literal Expressions**: Create variables for `product`, `price`, and `quantity`. Use a Template Literal to calculate the total price directly inside the `${}` placeholder and format a professional message.
 - **11. Explicit Coercion Challenge**: Convert the following values to Boolean, Number, and String: `0`, `"123"`, `undefined`, `null`, `NaN`. Create a table-like log with the results.
-- **12. Multi-line Strings**: Use Template Literals to create a string that spans 5 lines without using `\n`.
-- **13. Boolean Logic with Primitives**: Create variables using all 7 primitive types. Write a script that checks which ones are "Truthy" and which ones are "Falsy" using an `if` statement for each.
+- **12. Boolean Logic with Primitives**: Create variables using all 7 primitive types. Write a script that checks which ones are "Truthy" and which ones are "Falsy" using an `if` statement for each.
 
 <br>
 
@@ -31,9 +30,6 @@
 - **07. Unicidade de Symbols**: Crie dois Symbols com a mesma descrição: `Symbol("id")`. Compare-os usando `===`. Use um deles como chave em um objeto e tente acessá-lo usando uma chave de string comum `"id"`.
 - **08. Null vs Undefined**: Crie uma variável e não atribua valor. Crie outra e atribua explicitamente `null`. Use `typeof` em ambas. Crie uma comparação que retorne `true` para elas e outra que retorne `false`.
 - **09. Tipagem Dinâmica**: Crie uma variável `data`. Atribua um Number, depois uma String, depois um Boolean. Use `typeof` após cada atribuição para demonstrar o sistema de tipagem dinâmica do JavaScript.
-- **10. A TDZ (Zona Morta Temporal)**: Escreva um bloco de código que acesse uma variável `let` dentro de uma função, mas a variável é declarada apenas no final da função. Explique o erro gerado.
-- **11. Escopo de Bloco em Loops**: Crie um loop `for` que use `var` para o contador. Fora do loop, logue o contador. Depois, faça o mesmo com `let` e compare os resultados.
-- **12. Expressões em Template Literals**: Crie variáveis para `product`, `price` e `quantity`. Use uma Template Literal para calcular o preço total diretamente dentro do espaço `${}` e formate uma mensagem profissional.
-- **13. Desafio de Coerção Explícita**: Converta os seguintes valores para Boolean, Number e String: `0`, `"123"`, `undefined`, `null`, `NaN`. Crie um log em formato de tabela com os resultados.
-- **14. Strings de Múltiplas Linhas**: Use Template Literals para criar uma string que ocupe 5 linhas sem usar o caractere `\n`.
-- **15. Lógica Booleana com Primitivos**: Crie variáveis usando todos os 7 tipos primitivos. Escreva um script que verifique quais são "Truthy" e quais são "Falsy" usando um `if` para cada um.
+- **10. Expressões em Template Literals**: Crie variáveis para `product`, `price` e `quantity`. Use uma Template Literal para calcular o preço total diretamente dentro do espaço `${}` e formate uma mensagem profissional.
+- **11. Desafio de Coerção Explícita**: Converta os seguintes valores para Boolean, Number e String: `0`, `"123"`, `undefined`, `null`, `NaN`. Crie um log em formato de tabela com os resultados.
+- **12. Lógica Booleana com Primitivos**: Crie variáveis usando todos os 7 tipos primitivos. Escreva um script que verifique quais são "Truthy" e quais são "Falsy" usando um `if` para cada um.
