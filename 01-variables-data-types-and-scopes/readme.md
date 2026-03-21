@@ -11,12 +11,10 @@
 - **07. Symbol Uniqueness**: Create two Symbols with the same description: `Symbol("id")`. Compare them using `===`. Use one of them as a key in an object and try to access it using a regular string key `"id"`.
 - **08. Null vs Undefined**: Create a variable and don't assign a value. Create another and explicitly assign `null`. Use `typeof` on both. Create a comparison that returns `true` for them and another that returns `false`.
 - **09. Dynamic Typing**: Create a variable `data`. Assign a Number, then a String, then a Boolean. Use `typeof` after each assignment to demonstrate JavaScript's dynamic typing system.
-- **10. The TDZ (Temporal Dead Zone)**: Write a code block that accesses a `let` variable inside a function, but the variable is declared at the end of the function. Explain the error triggered.
-- **11. Block Scope in Loops**: Create a `for` loop that uses `var` for the counter. Outside the loop, log the counter. Then, do the same with `let` and compare the results.
-- **12. Template Literal Expressions**: Create variables for `product`, `price`, and `quantity`. Use a Template Literal to calculate the total price directly inside the `${}` placeholder and format a professional message.
-- **13. Explicit Coercion Challenge**: Convert the following values to Boolean, Number, and String: `0`, `"123"`, `undefined`, `null`, `NaN`. Create a table-like log with the results.
-- **14. Multi-line Strings**: Use Template Literals to create a string that spans 5 lines without using `\n`.
-- **15. Boolean Logic with Primitives**: Create variables using all 7 primitive types. Write a script that checks which ones are "Truthy" and which ones are "Falsy" using an `if` statement for each.
+- **10. Template Literal Expressions**: Create variables for `product`, `price`, and `quantity`. Use a Template Literal to calculate the total price directly inside the `${}` placeholder and format a professional message.
+- **11. Explicit Coercion Challenge**: Convert the following values to Boolean, Number, and String: `0`, `"123"`, `undefined`, `null`, `NaN`. Create a table-like log with the results.
+- **12. Multi-line Strings**: Use Template Literals to create a string that spans 5 lines without using `\n`.
+- **13. Boolean Logic with Primitives**: Create variables using all 7 primitive types. Write a script that checks which ones are "Truthy" and which ones are "Falsy" using an `if` statement for each.
 
 <br>
 
