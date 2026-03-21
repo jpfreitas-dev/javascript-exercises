@@ -12,7 +12,6 @@ for (const property in variables) {
   let boolean = "falsy";
   property === false ? boolean = "falsy" : boolean = "truthy";
    
-  
   console.log(`\n The property ${property} is ${boolean}.`);
 }
 
