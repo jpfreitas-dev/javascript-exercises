@@ -6,11 +6,11 @@ let sumOfPowers = 0;
 
 const numDigits = [];
 for (let temp = num; temp > 0; temp = Math.floor(temp / 10)) {
-  numDigits.unshift(temp % 10);
+  numDigits.unshift(temp % 10); // Add digits to the front of the array to maintain order
 }
 
 numDigits.forEach(digit => {
-  sumOfPowers += Math.pow(digit, numDigits.length);
+  sumOfPowers += Math.pow(digit, numDigits.length); // Math.pow raises the digit to the power if the number of digits
 })
 
 console.log(`Number: ${num}`);
