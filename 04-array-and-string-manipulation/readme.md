@@ -34,14 +34,6 @@
     - **File:** `08-price-range-validator.js`
     - **Goal:** Use `every()` to ensure all are numbers > 0 and `some()` to find if any is > 100.
 
-- **09. CSV Data Parser**: Convert a raw string `"Apple,10,1.99;Banana,5,0.99"` into readable sentences.
-    - **File:** `09-csv-data-parser.js`
-    - **Goal:** Use `split(";")`, then `split(",")` inside a `map()` to format the output.
-
-- **10. Specialized Type Filter**: Extract and format specific data types from a mixed array.
-    - **File:** `10-specialized-type-filter.js`
-    - **Goal:** Use `filter()` for strings, `map()` for uppercase, and `join("-")` for the final result.
-
 <br>
 
 ---
@@ -73,4 +65,9 @@
     - **Objetivo:** Use `filter()` ou `includes()` com `replaceAll()` para transformar palavras ruins em `"****"`.
 
 - **07. Bissetor e Inversor de Array**: Divida um array de 10 números ao meio e inverta a segunda parte.
-    -
+    - **Arquivo:** `07-array-bisector-and-inverter.js`
+    - **Objetivo:** Use `slice()` para a divisão e `reverse()` para a segunda metade.
+
+- **08. Validador de Faixa de Preços**: Valide uma lista de preços de produtos para consistência.
+    - **Arquivo:** `08-price-range-validator.js`
+    - **Objetivo:** Use `every()` para garantir que todos sejam números > 0 e `some()` para verificar se algum é > 100.
