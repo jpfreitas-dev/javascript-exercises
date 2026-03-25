@@ -18,9 +18,9 @@
     - **File:** `04-email-domain-obfuscator.js`
     - **Goal:** Transform `["user@gmail.com"]` into `["***@gmail.com"]` using `map()` and `split()`.
 
-- **05. Warehouse Inventory Flow**: Manage a list using LIFO (Last-In, First-Out) and FIFO (First-In, First-Out) logic.
-    - **File:** `05-warehouse-inventory-flow.js`
-    - **Goal:** Use `push()`, `unshift()`, `pop()`, and `shift()` to manipulate a `warehouse` array.
+- **05. LIFO list**: Manage a list using LIFO (Last-In, First-Out) and FIFO (First-In, First-Out) logic.
+    - **File:** `05-LIFO-list.js`
+    - **Goal:** Use `push()`, `unshift()`, `pop()`, and `shift()` to manipulate a array.
 
 - **06. Content Censorship Engine**: Check a string against an array of "forbidden words" and mask them.
     - **File:** `06-content-censorship-engine.js`
